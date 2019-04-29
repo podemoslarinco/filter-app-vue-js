@@ -1,6 +1,8 @@
-# Filter App with Vue Js
+# Programa político de Podemos La Rinconada 2019
 
-A simple Vue js filtering application. This repo is for the tutorial of building a Simple filtering app with Vue js on Medium by John Ayeni
+Web para consultar las medidas programáticas que lleva Podemos a las elecciones municipales en 2019 para el municipio de La Rinconada.
+
+Basada en el trabajo de John Ayeni, que incluso se ha currado un [manual](https://medium.com/covenant-university-developers-community/building-a-simple-data-filtering-app-with-vue-js-521420c73899) para que podáis montaros una App similar. 
 
 ## Build Setup
 
