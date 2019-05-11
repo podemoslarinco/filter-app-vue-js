@@ -45,7 +45,7 @@
 				</div>
 			</div>
 		</div>
-		<a class="btn btn-podemos col-1" style="margin-left: 1.25rem" href="../">Consulte nuestras propuestas</a>
+		<router-link to="/" class="btn btn-podemos col-1" style="margin-left: 1.25rem">Consulte nuestras propuestas</router-link>
 	</div>
   </div>
 </template>
