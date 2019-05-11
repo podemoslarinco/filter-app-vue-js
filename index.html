@@ -6,13 +6,29 @@
     <title>Podemos La Rinconada 2019</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-    <link rel="icon" href="favicon.png" sizes="16x16">
+    <link rel="icon" href="static/img/favicon.png" sizes="16x16">
+    <style>
+      .btn-podemos {
+          color: #fff;
+          background-color: #683065;
+          border-color: #683065;
+          margin-bottom: 1rem;
+          margin-top: 1rem;
+      }
+
+      .btn-podemos:hover {
+          color: #fff;
+          background-color: #683065;
+          border-color: #683065;
+      }
+      </style>
   </head>
   <body>
     <div class="d-flex flex-column sticky-top flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
         <h5 class="my-0 mr-md-auto font-weight-normal"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Wordmark_Podemos.svg" height="30" alt="Podemos" /></h5>
         <nav class="my-2 my-md-0 mr-md-3">
-          <label class="p-2 text-dark" href="#">Programa para La Rinconada 2019</label>
+          <a class="btn btn-podemos" target="_blank" href="static/docs/ProgramaPodemosLaRinconada2019.pdf" download="ProgramaPodemosLaRinconada2019"><i class="fa fa-fw fa-download"></i> LinkedInDescargue el programa completo en PDF</a>
+          <a class="btn btn-podemos" href="#/candidato"><i class="far fa-smile"></i> Luís Silva - Candidato a la Alcaldía</a>
         </nav>
       </div>
     <div id="app"></div>
