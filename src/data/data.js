@@ -78,7 +78,7 @@ const data = [
     {id:77, uncollapsed: false, name: 'Recuperación del entorno natural para la práctica deportiva.', description: 'Recuperación del entorno natural para la práctica deportiva. En colaboración con el área de medioambiente y con las asociaciones de nuestra localidad, recuperaremos los espacios públicos como son los caminos y veredas y los adaptaremos para la práctica deportiva integrada en la naturaleza. La práctica del senderismo, cross, cicloturismo o simplemente darse un paseo por el nuevo entorno natural recuperado, serán sellos diferenciadores que harán las delicias de nuestros deportistas y serán un reclamo para mejorar el sector turístico de la localidad. Además, gracias a la conexión con otras localidades, el deporte en el entorno natural toma una nueva dimensión.',tags: ['Autónom@s, Pymes y Economía social', 'Cultura', 'Deporte', '']}, 
     {id:78, uncollapsed: false, name: 'Acondicionamiento del Guadalquivir.', description: 'Acondicionamiento del margen del Guadalquivir para la práctica de la pesca, el remo o la vela. El Guadalquivir también es nuestro río y debemos de cuidarlo.',tags: ['Deporte', '']}, 
     {id:79, uncollapsed: false, name: 'Consejo deportivo ciudadano.', description: 'Creación del consejo deportivo municipal, constituido por usuarios, clubes, empresas y organizaciones locales. Su misión principal será colaborar en la redacción del plan anual del área de deportes, valorar el funcionamiento del modelo de gestión deportiva, proponer opciones de mejora y líneas de trabajo futuras.',tags: ['Deporte', '']}, 
-
+    {id:80, uncollapsed: false, name: 'Deporte para todas y todos.', description: 'Deporte para todas y todos. Apoyo económico para que nadie se quede sin practicar deporte por falta de recursos económicos. Trabajaremos para reducir el precio del acceso a las instalaciones deportivas y estudiaremos la transición hacia un modelo donde no exista el copago deportivo.',tags: ['Deporte']}, 
     {id:81, uncollapsed: false, name: 'Creación de un mapa/bolsa de cuidados.', description: 'Creación de un mapa/bolsa de cuidados. Se trata de crear una red de confianza formada por familias que intercambien su tiempo de cuidado de hijos; red de apoyo en la que las familias se inscriben con el tiempo del que disponen, número de niños y edades y actividades a realizar en ese tiempo. La finalidad es liberar durante una hora o dos como mucho a las madres o padres.',tags: ['Cuidados', 'Feminismos', '']}, 
     {id:82, uncollapsed: false, name: 'Ludotéca municipal en vacaciones.', description: 'Creación de una ludoteca municipal que cubra los festivos y mes de agosto que no cubren las guarderías y colegios.',tags: ['Cuidados', 'Feminismos', '']}, 
     {id:83, uncollapsed: false, name: 'Estudio para la gestión directa de los servicios de cuidados.', description: 'Estudio para la gestión directa de los servicios de cuidados. Servicios como la ayuda a domicilio, actualmente están siendo explotados por grandes multinacionales. Creemos que estos servicios pueden ser prestados directamente por nuestro ayuntamiento y con un mejor rendimiento. Además, gracias al proceso de municipalización del servicio, todas las dotaciones podrán ser aprovechadas para reducir la factura de los servicios de otros departamentos y que actualmente, también son prestadas por empresas privadas.',tags: ['Servicios públicos']}, 
@@ -116,7 +116,12 @@ const data = [
     {id:115, uncollapsed: false, name: 'Internet municipal.', description: 'Internet municipal. Facilitar el acceso a Internet gratis y de calidad en zonas de especial interés o con difícil acceso.',tags: ['Servicios públicos']}, 
     {id:116, uncollapsed: false, name: 'Normalización de servicios municipales en todos los núcleos poblacionales.', description: 'Normalización de servicios municipales en todos los núcleos poblacionales. Y con especial interés por los servicios de seguridad ciudadana, de correos y la recogida de basuras en las zonas más alejadas de los centros poblacionales.',tags: ['Servicios públicos']}, 
 
-
 ];
-
+data.plans = [
+    {
+        id: 1,
+        name: 'Plan 1',
+        description: 'Desc'
+    }
+]
 export default data;
