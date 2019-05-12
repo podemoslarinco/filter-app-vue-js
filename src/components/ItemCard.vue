@@ -36,7 +36,7 @@
 					</div>
 				</social-sharing>
 			</div>
-			<div :id="`medida${item.id}`" class="collapse" :class="{'show' : item.uncollapsed}" :aria-labelledby="`cabecera-medida${item.id}`" data-parent="#medidas">
+			<div :id="`medida${item.id}`" class="collapse" :class="{'show' : item.id == 1}" :aria-labelledby="`cabecera-medida${item.id}`" data-parent="#medidas">
 				<div class="card-body">
 					{{ item.description }}
 				</div>
