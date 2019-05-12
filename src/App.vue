@@ -6,7 +6,12 @@
 
 <script>
 export default {
-	name: 'App'
+	name: 'App',
+	watch: {
+		'$route' () {
+		  $('.navbar-collapse').collapse('hide');
+		}
+	  }
 };
 </script>
 
