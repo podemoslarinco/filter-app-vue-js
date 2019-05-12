@@ -4,6 +4,11 @@ Web para consultar las medidas programáticas que lleva Podemos a las elecciones
 
 Basada en el trabajo de John Ayeni, que incluso se ha currado un [manual](https://medium.com/covenant-university-developers-community/building-a-simple-data-filtering-app-with-vue-js-521420c73899) para que podáis montaros una App similar. 
 
+Para el formateado del contenido de algunos items he utilizado las siguientes herramientas:
+
+https://wordtohtml.net/
+https://www.freeformatter.com/json-escape.html
+
 ## Build Setup
 
 ``` bash
