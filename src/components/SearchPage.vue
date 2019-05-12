@@ -17,7 +17,7 @@
 					<div v-for="(tag,index) in tags" :key="index" class="form-check form-check-inline mr-1">
 						<div class="btn-group-toggle" data-toggle="buttons">
 							<label class="btn btn-outline-info mt-2" :class="{'focus active' : tag.checked}">
-								<input type="checkbox" autocomplete="off" v-model="tag.checked" @change="getfilteredData"> {{ tag.value }}
+								<input type="checkbox" :id="index" autocomplete="off" v-model="tag.checked" @change="$emit('update:tag', $event.target.value)"> {{ tag.value }}
 							</label>
 						</div>
 					</div>
@@ -148,6 +148,19 @@ export default {
 	},
 	mounted() {
 		this.getfilteredData();
+		var self = this;//vue
+		$('input').on('change', function () {            
+			let data = {
+				id: parseInt(this.id),
+			    checked: this.checked
+			}
+			self.$emit("change", data)
+			
+		});
+		self.$on("change", function(data){
+			this.tags[data.id].checked = data.checked
+			this.getfilteredData()
+		}); 
 	}
 };
 </script>
